@@ -48,7 +48,7 @@
 a{text-decoration: none;}
 /* Buttons */
 
-.btn-primary{min-width: 270px; height: 55px; display: inline-block; background: transparent; border:solid 1px var(--secondary-color); border-radius: 100px; color: var(--secondary-color); text-align: center; line-height: 50px; transition: 0.3s;}
+.btn-primary{min-width: 270px; height: 55px; display: inline-block; background: transparent; border:solid 1px var(--secondary-color); border-radius: 100px; color: var(--secondary-color); text-align: center; line-height: 50px; transition: 0.3s; margin: 60px 0;}
 .btn-primary:hover{background: var(--secondary-color); color: #fff; border:solid 1px var(--secondary-color);}
 .btn-sections{width: 150px; height: 45px; display: flex; justify-content: center; align-items: center; color: #fff; border-radius: 5px; transition: all .3s;}
 .blue{background: var(--blue);}
@@ -64,14 +64,20 @@ a{text-decoration: none;}
 .btn-subscribe:hover{background: var(--orange); box-shadow: 0 5px 10px #ef7f65; color: #fff;}
 
 html{scrollbar-width: thin;}
-body{min-height: 2000px;}
 /* Header */
 header .navbar{-webkit-transition: all .2s linear; transition: all .2s linear; -o-transition: all .2s linear;}
 header .nav-item{margin: 0 20px;}
 header .nav-link{font-family: 'Avenir', sans-serif; color: var(--secondary-color);}
 header .nav-link:hover{color: var(--orange);}
-header .navbar-toggler{color: var(--blue); font-size: 1.5em;}
+header .navbar-toggler{color: var(--blue); font-size: 1.5em; border: none; margin-top:15px;}
 header .navbar-toggler:focus{box-shadow: none;}
 header .navbar-nav{background: #fff;}
-header .header-scrolled{background: #fff; position: fixed; left: 0; right: 0; width: 100%; -webkit-box-shadow: 0 4px 6px 0 rgba(235, 235, 235, 0.5);
-    box-shadow: 0 4px 6px 0 rgba(235, 235, 235, 0.5);}
+header .header-scrolled{background: #fff; position: fixed; left: 0; right: 0; width: 100%; -webkit-box-shadow: 0 4px 6px 0 rgba(235, 235, 235, 0.5); box-shadow: 0 4px 6px 0 rgba(235, 235, 235, 0.5);}
+
+/* Banner */
+.banner-wrapper{width: 100%; margin-top: 90px; padding-top: 50px; background-image: url('../assets/bg.svg'); background-size: contain; background-position: top center; background-repeat: no-repeat}
+.banner-wrapper .row{height: 90vh;}
+.banner-wrapper h1{margin-bottom: 35px; color: var(--primary-color);}
+.banner-wrapper p{color: var(--secondary-color);}
+
+.red{border: solid 1px red;}
