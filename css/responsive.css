@@ -1,4 +1,19 @@
+
+@media (max-width: 5000px){
+    .core_feature_wrapper .img{ left: 150px;}
+}
+
+@media (max-width: 1770px){
+    .core_feature_wrapper .img{ left: 50px;}
+}
+
+@media (max-width: 1570px){
+    .core_feature_wrapper .img{left: 0;}
+}
 /* 720px*/
 @media all and (max-width: 576px){
-    .banner-wrapper{background-image: none;}
+    p{font-size: 14px;}
+    .banner-wrapper{background-image: none; margin-top: 0px;}
+    .core_feature_wrapper{margin-top: -150px;}
+    .core_feature_wrapper .img{left: 75%;}
 }
