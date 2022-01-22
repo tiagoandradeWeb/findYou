@@ -62,7 +62,11 @@ a{text-decoration: none;}
 .price-orange:hover{background: var(--blue); color: #fff;}
 .btn-subscribe{width: 270px; height: 60px; display: flex; justify-content: center; align-items: center; border-radius: 100px; background: var(--blue); color: #fff; box-shadow: 0 5px 10px #80e0dd8e; font-size: 20px;}
 .btn-subscribe:hover{background: var(--orange); box-shadow: 0 5px 10px #ef7f65; color: #fff;}
-
+.color-blue{color: var(--blue);}
+.color-blue{color: var(--blue);}
+.color-blue:hover{color: #1da7a2;}
+.color-orange{color: var(--orange);}
+.color-orange:hover{color: #a74d39;}
 html{scrollbar-width: thin;}
 /* Header */
 header .navbar{-webkit-transition: all .2s linear; transition: all .2s linear; -o-transition: all .2s linear;}
@@ -98,4 +102,26 @@ header .header-scrolled{background: #fff; position: fixed; left: 0; right: 0; wi
 .create_account_wrapper .account_form{margin-right: 150px;}
 .create_account_wrapper .account_form input{margin-right: 30px; border: none; color: var(--blue); background: #ECFBFA; box-shadow: none;}
 .create_account_wrapper .account_form input::placeholder{color: var(--blue);}
+
+/* price-wrapper */
+.price-wrapper{margin-top: 100px;}
+.price-wrapper h1{font-family: var(--font-primary); color: var(--primary-color);}
+.price-wrapper p{font-family: var(--paragraph); color: var(--secondary-color); margin-top: 15px;}
+.price-wrapper .card {margin-left: 80px;}
+.price-wrapper .card.mg-0{margin-left: 0;}
+.price-wrapper .card .card-header{position: relative; background: #fff; padding: 60px;}
+.price-wrapper .card .card-header .card-ribbon{position: absolute; top: 0; right: 50px;}
+.price-wrapper .card .card-header h3{margin-top: 30px; font-family: var(--font-primary); color: var(--primary-color); font-weight: bold;}
+.price-wrapper .card .card-body{padding-top: 50px; padding-bottom: 50px;}
+.price-wrapper .card .card-body ul li{list-style: none; margin-bottom: 20px; font-family: var(--paragraph); color: var(--secondary-color); font-size: 16px;}
+.price-wrapper .card .card-body .footer{margin: 50px 0 0 30px;}
+.price-wrapper .card .card-body .footer .btn-sections{border-radius: 100px; margin-right: 50px;}
+
+/* download_wrapper */
+.download_wrapper{margin-top: 200px; background: #EFF8FF; padding: 130px 0; position: relative;}
+.download_wrapper h2{color: var(--primary-color); font-family: var(--font-primary); margin-bottom: 25px;}
+.download_wrapper p{color: var(--paragraph); margin-bottom: 60px;}
+.download_wrapper .box-download h3{font-family: var(--font-primary); margin-right:100px;}
+.download_wrapper .box-download img{ margin-right:25px;}
+.download_wrapper .mobile{position: absolute; right: 0; top: -140px;}
 .red{border: solid 1px red;}

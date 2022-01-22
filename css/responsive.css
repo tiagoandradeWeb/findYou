@@ -10,18 +10,38 @@
 @media (max-width: 1570px){
     .core_feature_wrapper .img{left: 0;}
 }
+@media (max-width: 1400px){
+    .price-wrapper .card {margin-left: 20px;}
+}
 @media (max-width: 1200px){
     .create_account_wrapper .account_form{margin-right: 100px;}
+    .download_wrapper .mobile{width: 350px; top: 350;}
+    .download_wrapper .box-download h3{margin-right:20px; font-size: 20px;}
 }
-@media (max-width: 1200px){
-    .create_account_wrapper .account_form{margin-right:0}
+
+
+@media (max-width: 990px){
+    .price-wrapper .card {margin-left: 0;}
+    .download_wrapper .mobile{width: 250px; top: 350;}
+    .download_wrapper .box-download{flex-direction: column}
+    .download_wrapper .mobile{width: 250px; top: 0;}
 }
 /* 720px*/
-@media all and (max-width: 576px){
+@media all and (max-width: 720px){
     p{font-size: 14px;}
     .banner-wrapper{background-image: none; margin-top: 0px;}
     .core_feature_wrapper{margin-top: -150px;}
     .core_feature_wrapper .img{left: 75%;}
     .create_account_wrapper, .invite_frined_wrapper{margin-top: 0px; padding: 50px 0;}
     .create_account_wrapper p, .invite_frined_wrapper p{margin: 20px 0 30px 0;}
+    .price-wrapper .card {margin-left: 0px;}
+    .download_wrapper .mobile{display: none;}
+    .download_wrapper .box-download{flex-direction: row}
+    .download_wrapper .box-download h3{font-size: 13px;}
+    .download_wrapper .box-download img{ margin-right:0px;}
+}
+
+@media all and (max-width: 400px){
+    .download_wrapper .box-download{flex-direction: column;}
+    .download_wrapper .box-download img{margin-bottom: 15px;}
 }
