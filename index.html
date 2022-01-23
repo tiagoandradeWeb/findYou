@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
-    <header>
+    <header class="slide-down">
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt=""></a>
@@ -46,7 +46,7 @@
           </nav>
     </header>
     <!-- Banner -->
-    <section class="banner-wrapper">
+    <section class="banner-wrapper slide-up">
       <div class="container">
         <div class="row justify-content-center align-items-center text-center">
           <div class="col-lg-8">
@@ -59,7 +59,7 @@
       </div>
     </section>
     <!-- Core Feature -->
-    <section class="core_feature_wrapper">
+    <section class="core_feature_wrapper slide-up">
       <div class="img"><img src="assets/riboon.svg" alt="" class="img-fluid"></div>
       <div class="container">
         <div class="row">
@@ -88,7 +88,7 @@
       </div>
     </section>
     <!-- Create Account -->
-    <section class="create_account_wrapper">
+    <section class="create_account_wrapper slide-up">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 mb-5">
@@ -107,7 +107,7 @@
       </div>
     </section>
     <!-- Invite Friend -->
-    <section class="invite_frined_wrapper">
+    <section class="invite_frined_wrapper slide-up">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 order-1 order-md-2">
@@ -123,7 +123,7 @@
       </div>
     </section>
     <!-- Pricing Plan -->
-    <section class="price-wrapper">
+    <section class="price-wrapper slide-up slide-up">
       <div class="container">
         <div class="row text-center">
           <h1>Pricing Plan</h1>
@@ -181,7 +181,7 @@
       </div>
     </section>
     <!-- Download App section -->
-    <section class="download_wrapper">
+    <section class="download_wrapper slide-up">
       <div class="container">
         <div class="row align-items-start position-relative">
           <div class="col-md-7">
@@ -193,14 +193,14 @@
               <a href="#"><img src="assets/store.png" alt="store" class="img-fluid mb-md-2"></a>
             </div>
           </div>
-          <div class="mobile">
+          <div class="mobile right">
             <img src="assets/Screen.png" alt="mobile" class="mobile img-fluid">
           </div>
         </div>
       </div>
     </section>
     <!-- Newslleter -->
-    <section class="newslleter_wrapper">
+    <section class="newslleter_wrapper slide-up">
       <div class="container">
         <div class="row align-content-start">
           <div class="col-lg-8">
@@ -214,7 +214,7 @@
         <hr>
       </div>
     </section>
-    <footer class="footer_wrapper">
+    <footer class="footer_wrapper slide-up">
       <div class="container">
         <div class="row">
           <div class="col-md-3 mb-5">
@@ -253,6 +253,9 @@
         </div>
       </div>
     </footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/reveal.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
