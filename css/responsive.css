@@ -17,6 +17,8 @@
     .create_account_wrapper .account_form{margin-right: 100px;}
     .download_wrapper .mobile{width: 350px; top: 350;}
     .download_wrapper .box-download h3{margin-right:20px; font-size: 20px;}
+    .newslleter_wrapper{margin-top: 100px;}
+    .newslleter_wrapper .btn-subscribe{margin-left: 0; margin-top: 30px;}
 }
 
 
@@ -25,6 +27,8 @@
     .download_wrapper .mobile{width: 250px; top: 350;}
     .download_wrapper .box-download{flex-direction: column}
     .download_wrapper .mobile{width: 250px; top: 0;}
+    .newslleter_wrapper h2{font-size: 24px;}
+    .newslleter_wrapper p{font-size: 16px;}
 }
 /* 720px*/
 @media all and (max-width: 720px){
@@ -35,10 +39,12 @@
     .create_account_wrapper, .invite_frined_wrapper{margin-top: 0px; padding: 50px 0;}
     .create_account_wrapper p, .invite_frined_wrapper p{margin: 20px 0 30px 0;}
     .price-wrapper .card {margin-left: 0px;}
+    .download_wrapper{margin-top: 100px; padding: 50px;}
     .download_wrapper .mobile{display: none;}
-    .download_wrapper .box-download{flex-direction: row}
-    .download_wrapper .box-download h3{font-size: 13px;}
+    .download_wrapper .box-download{flex-direction: column}
+    .download_wrapper .box-download h3{font-size: 18px;}
     .download_wrapper .box-download img{ margin-right:0px;}
+    .download_wrapper .box-download img{margin-bottom: 15px;}
 }
 
 @media all and (max-width: 400px){

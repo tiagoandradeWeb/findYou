@@ -46,6 +46,7 @@
 } */
 p{font-family: var(--paragraph); color: var(--paragraph); line-height: 30px;}
 a{text-decoration: none;}
+ul li{list-style: none;}
 /* Buttons */
 
 .primary-btn{width: 270px; height: 55px; display: flex; justify-content: center; align-items: center;  margin: 60px auto; background: transparent; border:solid 1px var(--secondary-color); border-radius: 100px; color: var(--secondary-color); transition: 0.3s; }
@@ -124,4 +125,19 @@ header .header-scrolled{background: #fff; position: fixed; left: 0; right: 0; wi
 .download_wrapper .box-download h3{font-family: var(--font-primary); margin-right:100px;}
 .download_wrapper .box-download img{ margin-right:25px;}
 .download_wrapper .mobile{position: absolute; right: 0; top: -140px;}
+
+/* newslleter_wrapper  */
+.newslleter_wrapper{margin-top: 300px;}
+.newslleter_wrapper h2{font-family: var(--font-primary); color: var(--primary-color); margin-bottom: 20px;}
+.newslleter_wrapper .btn-subscribe{margin: 50px;}
+
+/* footer_wrapper */
+.footer_wrapper{padding-top: 100px; background: url('../assets/bg-footer.png'); background-size: contain; background-repeat: no-repeat; background-position: center top;}
+.footer_wrapper h5{margin-bottom: 20px; font-family: var(--font-primary); color: var(--primary-color);}
+.footer_wrapper ul li{margin-bottom: 15px; margin-left: -30px;}
+.footer_wrapper ul li a{font-family: var(--paragraph); color: var(--secondary-color);}
+.facebook{color: #3B5998;}
+.twitter{color: #1DA1F2}
+.instagram{color:#E1306C;}
+.in{color: #0077B5}
 .red{border: solid 1px red;}
